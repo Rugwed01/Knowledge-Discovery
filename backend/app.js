@@ -18,6 +18,15 @@ app.use('/documents', express.static(path.resolve(process.env.DOCUMENTS_FOLDER |
 // Routes
 app.use('/api/documents', documentsRouter);
 
+// Root route to confirm server is running
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Knowledge Discovery Backend is running', 
+    status: 'OK',
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Initialize the document index on startup
 initializeIndex();
 
