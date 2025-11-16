@@ -2,6 +2,12 @@
 
 A full-stack search application built with React, TypeScript, and Node.js that enables organizations to index, search, and discover internal documents across multiple categories.
 
+## Useful Links
+
+**Backend URL** = <https://knowledge-discovery.onrender.com>
+
+**App/Frontend URL** = <https://knowledge-discovery-frontend.vercel.app>
+
 ## Features
 
 - **Powerful Search**: Full-text search across all indexed documents
