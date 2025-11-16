@@ -1,0 +1,16 @@
+React Guide for Beginners
+
+React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of developers. React makes it painless to create interactive UIs.
+
+Key Concepts:
+1. Components - The building blocks of React applications
+2. JSX - Syntax extension for JavaScript
+3. Virtual DOM - Improves performance by minimizing direct DOM manipulation
+4. Props - Pass data between components
+5. State - Manage dynamic data within components
+
+Getting Started:
+To create a new React app, you can use Create React App:
+npx create-react-app my-app
+
+This will set up a new React project with all the necessary dependencies and configuration.
